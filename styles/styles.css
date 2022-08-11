@@ -49,8 +49,8 @@ body a:hover {
 }
 body section {
   height: 800px;
-  width: 100%;
-  padding: 30px;
+  max-width: 900px;
+  padding-top: 30px;
 }
 body section #about {
   position: relative;

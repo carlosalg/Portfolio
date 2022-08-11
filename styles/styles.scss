@@ -54,8 +54,8 @@ body{
     }
     section{
         height: 800px;
-        width: 100%;
-        padding: 30px;
+        max-width: 900px;
+        padding-top: 30px;
         #about{
             position: relative;
             margin-top: 100px;
