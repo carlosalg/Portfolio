@@ -51,6 +51,7 @@ body section {
   height: 800px;
   max-width: 900px;
   padding-top: 30px;
+  margin: 0 auto;
 }
 body section #about {
   position: relative;
