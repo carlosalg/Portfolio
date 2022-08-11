@@ -6,11 +6,11 @@
 }
 
 :root {
-  --bg-color: #000000;
-  --sec-color: #FFFFFC;
-  --sections-color: #BEB7A4;
-  --sec2-color: #FF7F11;
-  --text-color: #292F36;
+  --bg-color: #D8D8F6;
+  --sec-color: #beb0a7;
+  --sections-color: #086788;
+  --sec2-color: #004f2d;
+  --text-color: #48e5c2;
 }
 
 body {
@@ -18,13 +18,13 @@ body {
   font-family: "Roboto", sans-serif;
 }
 body .navbar {
-  background-color: var(--sec-color);
+  background-color: var(--sections-color);
   height: 45px;
   width: 100%;
   overflow: hidden;
-  border-radius: 30px;
   position: fixed;
   top: 0px;
+  border: 1px solid var(--text-color);
   z-index: 1;
 }
 body .nav {
@@ -50,7 +50,11 @@ body a:hover {
 body section {
   height: 800px;
   width: 100%;
-  padding: 60px 30px;
+  padding: 30px;
+}
+body section #about {
+  position: relative;
+  margin-top: 100px;
 }
 body .main-about {
   width: 100%;
@@ -58,8 +62,6 @@ body .main-about {
   display: flex;
   position: relative;
   flex-direction: column;
-  background-color: var(--sections-color);
-  border-radius: 15px;
 }
 body .main-about .container {
   width: 90%;
@@ -94,6 +96,7 @@ body .main-about .container .item-2 {
   grid-column-end: 3;
   grid-row-start: 1;
   grid-row-end: 3;
+  background-color: var(--sections-color);
   border-radius: 10px;
   border: 1px var(--text-color) solid;
   box-shadow: 6px 12px 4px black;
