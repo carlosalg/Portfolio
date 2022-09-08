@@ -20,7 +20,7 @@ body{
         
     .navbar{
         background-color: var(--sections-color);
-        height: 45px;
+        height: 50px;
         width: 100%;
         overflow: hidden;
         position: fixed;
@@ -46,8 +46,11 @@ body{
         font-size: 17px;
         font-weight: bold;
         
+        
     }
     a:hover{
+        
+    
         background-color: #C0C0C0;
         border-radius: 10px;
         color: #000000;
@@ -133,10 +136,11 @@ body{
     }
     .main-projects{
         width: 100%;
-        height: 100%;
+        height: 800px;
         display: flex;
-        position: relative;
-        flex-direction: column;
+        background-color: #086788;
+        flex-direction: center;
+        align-items: center;
         background-color: var(--sections-color);
         border-radius: 15px;
 
